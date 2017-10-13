@@ -1,0 +1,6 @@
+version: '2'
+services:
+    nps-answers-postgresql:
+      extends:
+        file: postgresql.yml
+        service: nps-answers-postgresql

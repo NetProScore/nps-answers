@@ -1,0 +1,9 @@
+version: '2'
+services:
+    nps-answers-postgresql:
+        image: postgres:9.6.5
+        environment:
+            - POSTGRES_USER=nps
+            - POSTGRES_PASSWORD=nps
+        ports:
+            - 5432:5432
